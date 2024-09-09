@@ -5,6 +5,10 @@ b = int(input('하나더 입력하세요 : '))
 c = a + b
 print(f'a + b = {c}')
 
+str1 = '안녕하세요'
+d = str1.lower()
+
+print(d)
 
 exit()
 
