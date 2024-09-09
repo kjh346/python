@@ -1,16 +1,4 @@
-a = 0
-b = 0
-a = int(input('수를 입력하세요 : '))
-b = int(input('하나더 입력하세요 : '))
-c = a + b
-print(f'a + b = {c}')
 
-str1 = '안녕하세요'
-d = str1.lower()
-
-print(d)
-
-exit()
 
 money = input('금액을 넣어주세요 : ')
 price = [800, 1300, 1500, 400, 700]
