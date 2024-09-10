@@ -64,8 +64,6 @@ def avg(*nums) :
         sum += num
     return sum/len(nums)
 
-
-
 hello('재헌')
 gugudan(5)
 getAll('재헌','9507081030310')
