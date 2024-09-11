@@ -1,10 +1,17 @@
 f= open('ex/강수량.csv', 'r', encoding='utf-8')
 
+x=[]
+y=[]
 while True : 
     line = f.readline()
     print(line)
+    if not line : break
     
     a,b,c = line.split(',')
-    print(f'{a} {b} {c}')
+    x.append(a)
+    y.append(c.replace('\n', ''))
     
-    if not line : break
+    
+    
+print(x)
+print(y)
